@@ -1,4 +1,4 @@
-# Restaurant BI Analysis (Power BI)
+# Restaurant BI Analysis
 
 Power BI project focused on customer behavior analysis, segmentation, and restaurant performance evaluation for a restaurant chain.
 
