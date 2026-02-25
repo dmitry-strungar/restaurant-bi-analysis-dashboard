@@ -91,6 +91,23 @@ Interactive bookmarks were implemented to switch between:
 
 ---
 
+
+## 💡 Business Insights
+
+Based on the analysis, the following insights can be derived:
+
+- Heavy (Hard) customers generate a disproportionate share of total revenue.
+- Medium customers represent the main growth opportunity segment.
+- Revenue distribution varies significantly across cities.
+- Some restaurants show high transaction volume but lower average check.
+- Customer lifetime value differs significantly by engagement level.
+
+The dashboard allows management to identify underperforming locations,
+optimize pricing strategy and better target customer segments.
+
+---
+
+
 ## 🛠 Tools Used
 
 - Power BI
