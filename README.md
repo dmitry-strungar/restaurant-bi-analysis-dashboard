@@ -4,7 +4,7 @@ Power BI project focused on customer behavior analysis, segmentation, and restau
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes sales and customer data of a restaurant network to evaluate:
 
@@ -19,7 +19,7 @@ The goal was to build an interactive analytical dashboard for business decision-
 
 ---
 
-## 🗂 Data Sources
+## Data Sources
 
 The analysis is based on two datasets:
 
@@ -43,7 +43,7 @@ VAT = 18%. All financial metrics were calculated excluding VAT.
 
 ---
 
-## 🧠 Data Modeling
+## Data Modeling
 
 - Star schema model
 - Fact table: Sales
@@ -54,7 +54,7 @@ VAT = 18%. All financial metrics were calculated excluding VAT.
 
 ---
 
-## 📊 Key Metrics
+## Key Metrics
 
 - Unique customers
 - Number of transactions
@@ -67,7 +67,7 @@ VAT = 18%. All financial metrics were calculated excluding VAT.
 
 ---
 
-## 👥 Customer Segmentation Logic
+## Customer Segmentation Logic
 
 Customers are segmented based on average monthly visits:
 
@@ -77,7 +77,7 @@ Customers are segmented based on average monthly visits:
 
 ---
 
-## 📈 Dashboards Included
+## Dashboards Included
 
 1. General Program Overview  
 2. Sales Performance by Restaurant  
@@ -92,7 +92,7 @@ Interactive bookmarks were implemented to switch between:
 ---
 
 
-## 💡 Business Insights
+## Business Insights
 
 Based on the analysis, the following insights can be derived:
 
@@ -108,7 +108,7 @@ optimize pricing strategy and better target customer segments.
 ---
 
 
-## 🛠 Tools Used
+## Tools Used
 
 - Power BI
 - Power Query
@@ -117,12 +117,12 @@ optimize pricing strategy and better target customer segments.
 
 ---
 
-## 📷 Dashboard Preview
+## Dashboard Preview
 
 (Screenshots are available in the /screenshots folder)
 
 ---
 
-## 📁 File
+## File
 
 The Power BI file (.pbix) is included in the repository.
