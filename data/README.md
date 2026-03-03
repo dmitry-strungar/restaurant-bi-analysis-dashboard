@@ -1,10 +1,10 @@
-## Data is not included due to size limitations.
-The dataset contains:
+## Данные не включены из-за ограничений по размеру.
+Набор данных содержит:
 
-- orders
-- customers
-- menu items
-- timestamps
+- заказы
+- клиентов
+- позиции меню
+- временные метки
 
-Dashboard file contains the full data model.
+Файл дашборда содержит полную модель данных.
 ---
