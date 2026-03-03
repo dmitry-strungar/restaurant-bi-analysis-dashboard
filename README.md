@@ -1,128 +1,127 @@
-# Restaurant BI Analysis
+# BI-анализ сети ресторанов
 
-Power BI project focused on customer behavior analysis, segmentation, and restaurant performance evaluation for a restaurant chain.
+Проект Power BI, направленный на анализ поведения клиентов, сегментацию и оценку эффективности работы сети ресторанов.
 
 ---
 
-## Project Overview
+## Обзор проекта
 
-This project analyzes sales and customer data of a restaurant network to evaluate:
+Данный проект анализирует данные о продажах и клиентах сети ресторанов для оценки:
 
-- Customer activity and engagement
-- Revenue performance by city and restaurant
-- Customer segmentation (Light / Medium / Hard)
-- Average check and product pricing (excluding VAT)
+- Активности и вовлеченности клиентов
+- Выручки по городам и ресторанам
+- Сегментации клиентов (Light / Medium / Hard)
+- Среднего чека и цен на продукты (без НДС)
 - LTV (Lifetime Value)
-- Revenue distribution across restaurants
+- Распределения выручки по ресторанам
 
-The goal was to build an interactive analytical dashboard for business decision-making.
+Цель проекта — создать интерактивный аналитический дашборд для принятия бизнес-решений.
 
 ---
 
-## Data Sources
+## Источники данных
 
-The analysis is based on two datasets:
+Анализ основан на двух наборах данных:
 
 1. **Customers**
-   - Registration date
-   - Birth date
-   - Gender
-   - City
-   - Loyalty program information
+   - Дата регистрации
+   - Дата рождения
+   - Пол
+   - Город
+   - Информация о программе лояльности
 
 2. **Sales**
-   - Transaction ID
-   - Restaurant information
-   - Product category
-   - Product price (incl. VAT)
-   - Quantity
-   - Transaction date
-   - Total check amount
+   - ID транзакции
+   - Информация о ресторане
+   - Категория продукта
+   - Цена продукта (с НДС)
+   - Количество
+   - Дата транзакции
+   - Общая сумма чека
 
-VAT = 18%. All financial metrics were calculated excluding VAT.
-
----
-
-## Data Modeling
-
-- Star schema model
-- Fact table: Sales
-- Dimension tables: Customers, Restaurants, Products, Calendar
-- Calculated measures built using DAX
-- Age calculated at the moment of transaction
-- Customer segmentation based on visits per month
+НДС = 18%. Все финансовые показатели рассчитаны без учета НДС.
 
 ---
 
-## Key Metrics
+## Моделирование данных
 
-- Unique customers
-- Number of transactions
-- Average check (excl. VAT)
-- Revenue (excl. VAT)
-- Average monthly transactions
-- Average product price
+- Модель «звезда» (Star schema)
+- Таблица фактов: Sales
+- Таблицы измерений: Customers, Restaurants, Products, Calendar
+- Расчетные показатели реализованы с использованием DAX
+- Возраст рассчитан на момент совершения транзакции
+- Сегментация клиентов основана на количестве визитов в месяц
+
+---
+
+## Ключевые метрики
+
+- Уникальные клиенты
+- Количество транзакций
+- Средний чек (без НДС)
+- Выручка (без НДС)
+- Среднее количество транзакций в месяц
+- Средняя цена продукта
 - LTV
-- Revenue share by restaurant
+- Доля выручки по ресторанам
 
 ---
 
-## Customer Segmentation Logic
+## Логика сегментации клиентов
 
-Customers are segmented based on average monthly visits:
+Клиенты сегментируются на основе среднего количества визитов в месяц:
 
-- **Light**: < 0.5 visits per month  
-- **Medium**: 0.5 – 1.5 visits per month  
-- **Hard**: > 1.5 visits per month  
-
----
-
-## Dashboards Included
-
-1. General Program Overview  
-2. Sales Performance by Restaurant  
-3. Customer Activity Analysis  
-4. Product & Revenue Analysis  
-
-Interactive bookmarks were implemented to switch between:
-- Transactions
-- Average Check
-- Revenue
+- **Light**: < 0.5 визита в месяц  
+- **Medium**: 0.5 – 1.5 визита в месяц  
+- **Hard**: > 1.5 визита в месяц  
 
 ---
 
+## Включенные дашборды
 
-## Business Insights
+1. Общий обзор программы  
+2. Анализ продаж по ресторанам  
+3. Анализ активности клиентов  
+4. Анализ продуктов и выручки  
 
-Based on the analysis, the following insights can be derived:
+Реализованы интерактивные закладки для переключения между:
 
-- Heavy (Hard) customers generate a disproportionate share of total revenue.
-- Medium customers represent the main growth opportunity segment.
-- Revenue distribution varies significantly across cities.
-- Some restaurants show high transaction volume but lower average check.
-- Customer lifetime value differs significantly by engagement level.
-
-The dashboard allows management to identify underperforming locations,
-optimize pricing strategy and better target customer segments.
+- Транзакциями
+- Средним чеком
+- Выручкой
 
 ---
 
+## Бизнес-инсайты
 
-## Tools Used
+На основе анализа можно сделать следующие выводы:
+
+- Клиенты сегмента Hard формируют непропорционально большую долю общей выручки.
+- Клиенты сегмента Medium представляют основной потенциал роста.
+- Распределение выручки значительно различается по городам.
+- Некоторые рестораны демонстрируют высокий объем транзакций при более низком среднем чеке.
+- LTV существенно различается в зависимости от уровня вовлеченности клиентов.
+
+Дашборд позволяет руководству выявлять отстающие точки,
+оптимизировать ценовую стратегию и более точно работать с клиентскими сегментами.
+
+---
+
+## Используемые инструменты
 
 - Power BI
 - Power Query
 - DAX
-- Data modeling (Star Schema)
+- Моделирование данных (Star Schema)
 
 ---
 
-## Dashboard Preview
+## Предпросмотр дашборда
 
-(Screenshots are available in the /screenshots folder)
+(Скриншоты доступны в папке /screenshots)
 
 ---
 
-## File
+## Файл
 
-The Power BI file (.pbix) is included in the repository.
+Файл Power BI (.pbix) включен в репозиторий.
