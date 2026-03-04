@@ -140,6 +140,16 @@ The dashboard enables:
 
 ---
 
+## Demonstrated Skills
+
+Data Modeling  
+DAX & Analytical Logic  
+Business Analytics  
+Dashboard Development  
+Data Preparation  
+
+---
+
 ## Dashboard Preview
 
 (Screenshots are available in the /screenshots folder)
