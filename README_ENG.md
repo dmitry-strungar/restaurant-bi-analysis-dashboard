@@ -92,19 +92,44 @@ Interactive bookmarks were implemented to switch between:
 ---
 
 
-## Business Insights
+## Key Insights
 
-Based on the analysis, the following insights can be derived:
+- **Hard (Heavy) customers are the primary revenue driver.**  
+  With an average LTV of ~38,000 ₽ and contributing up to 100% of segment revenue in selected filters, this segment generates a disproportionately large share of total revenue. Retention of this group has a direct impact on profitability stability.
 
-- Heavy (Hard) customers generate a disproportionate share of total revenue.
-- Medium customers represent the main growth opportunity segment.
-- Revenue distribution varies significantly across cities.
-- Some restaurants show high transaction volume but lower average check.
-- Customer lifetime value differs significantly by engagement level.
+- **Medium customers represent the main scalable growth opportunity.**  
+  While their current contribution is lower than Hard customers, transaction dynamics show steady growth, making them the most convertible segment for upsell and loyalty program optimization.
 
-The dashboard allows management to identify underperforming locations,
-optimize pricing strategy and better target customer segments.
+- **Revenue concentration risk is moderate but visible.**  
+  Top-10 customers account for **27.3% of total revenue (≈50.9M ₽ out of 186.5M ₽)**, indicating dependency on a relatively small client base.
 
+- **Significant regional performance gap exists.**  
+  Revenue varies strongly across cities:
+  - Moscow demonstrates the highest average price level (~109.4)
+  - Saint Petersburg follows (~93.6)
+  - Rostov-on-Don shows the lowest (~54.8)  
+  This reflects purchasing power differences and pricing elasticity.
+
+- **Operational imbalance across restaurants.**  
+  Some locations show high transaction volumes but below-average check (~1,358 ₽ overall average), suggesting pricing inefficiencies or suboptimal product mix.
+
+- **Sales dynamics indicate accelerating customer acquisition.**  
+  New customer growth spikes toward the end of the period, while total revenue reaches **186,534,458 ₽**, confirming positive momentum.
+
+- **Customer behavior is structurally segmented.**  
+  LTV and average check vary significantly by engagement level, confirming the necessity of differentiated retention strategies.
+
+---
+
+### Management Implications
+
+The dashboard enables:
+
+- Early detection of revenue concentration risk  
+- Identification of high-LTV customer segments  
+- Pricing optimization at city and restaurant level  
+- Performance benchmarking across locations  
+- Data-driven segmentation and targeted marketing execution 
 ---
 
 
