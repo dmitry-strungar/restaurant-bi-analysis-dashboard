@@ -119,8 +119,6 @@ Interactive bookmarks were implemented to switch between:
 - **Customer behavior is structurally segmented.**  
   LTV and average check vary significantly by engagement level, confirming the necessity of differentiated retention strategies.
 
----
-
 ### Management Implications
 
 The dashboard enables:
