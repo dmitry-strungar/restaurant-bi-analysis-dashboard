@@ -128,8 +128,21 @@ The dashboard enables:
 - Pricing optimization at city and restaurant level  
 - Performance benchmarking across locations  
 - Data-driven segmentation and targeted marketing execution 
----
 
+---
+## Business Value
+Identifies high-value customer segments (Hard) driving revenue  
+Highlights Medium segment as key growth opportunity  
+Detects performance differences across cities and restaurants  
+Supports pricing optimization and customer targeting strategy  
+
+## Stakeholders
+Operations Manager  
+Marketing Team  
+Product Analyst  
+Business Owners  
+
+---
 
 ## Tools Used
 
