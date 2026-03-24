@@ -72,7 +72,7 @@ VAT = 18%. All financial metrics were calculated excluding VAT.
 Customers are segmented based on average monthly visits:
 
 - **Light**: < 0.5 visits per month  
-- **Medium**: 0.5 – 1.5 visits per month  
+- **Medium**: 0.5 - 1.5 visits per month  
 - **Hard**: > 1.5 visits per month  
 
 ---
