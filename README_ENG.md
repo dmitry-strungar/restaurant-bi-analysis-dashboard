@@ -2,8 +2,6 @@
 
 Power BI project focused on customer behavior analysis, segmentation, and restaurant performance evaluation for a restaurant chain.
 
----
-
 ## Project Overview
 
 This project analyzes sales and customer data of a restaurant network to evaluate:
@@ -16,8 +14,6 @@ This project analyzes sales and customer data of a restaurant network to evaluat
 - Revenue distribution across restaurants
 
 The goal was to build an interactive analytical dashboard for business decision-making.
-
----
 
 ## Data Sources
 
@@ -41,8 +37,6 @@ The analysis is based on two datasets:
 
 VAT = 18%. All financial metrics were calculated excluding VAT.
 
----
-
 ## Data Modeling
 
 - Star schema model
@@ -51,8 +45,6 @@ VAT = 18%. All financial metrics were calculated excluding VAT.
 - Calculated measures built using DAX
 - Age calculated at the moment of transaction
 - Customer segmentation based on visits per month
-
----
 
 ## Key Metrics
 
@@ -65,8 +57,6 @@ VAT = 18%. All financial metrics were calculated excluding VAT.
 - LTV
 - Revenue share by restaurant
 
----
-
 ## Customer Segmentation Logic
 
 Customers are segmented based on average monthly visits:
@@ -74,8 +64,6 @@ Customers are segmented based on average monthly visits:
 - **Light**: < 0.5 visits per month  
 - **Medium**: 0.5 - 1.5 visits per month  
 - **Hard**: > 1.5 visits per month  
-
----
 
 ## Dashboards Included
 
@@ -88,9 +76,6 @@ Interactive bookmarks were implemented to switch between:
 - Transactions
 - Average Check
 - Revenue
-
----
-
 
 ## Key Insights
 
@@ -129,7 +114,6 @@ The dashboard enables:
 - Performance benchmarking across locations  
 - Data-driven segmentation and targeted marketing execution 
 
----
 ## Business Value
 Identifies high-value customer segments (Hard) driving revenue  
 Highlights Medium segment as key growth opportunity  
@@ -142,7 +126,20 @@ Marketing Team
 Product Analyst  
 Business Owners  
 
----
+## Stack of AI tools
+During the work on the project, AI tools were used to accelerate development and improve the effectiveness of analytics.:
+
+ChatGPT was used for:
+1) generation of drafts of DAX measures for calculating LTV, average receipt and customer segmentation (Light/Medium/Hard)
+2) prototyping the logic of calculating the age at the time of the transaction and the calendar table
+3) search for ideas for visualizing revenue distribution across cities and restaurants
+
+DeepSeek was used for:
+1) improvements and optimizations of DAX expressions (checking the filtering context, eliminating errors in iterators)
+2) checking the logic of customer segmentation and calculating LTV based on time slices
+3) preparing descriptions of key insights for dashboard documentation
+
+All the key steps - designing the star model, setting up connections, visualizing and interpreting the results - were performed independently. AI was used as a tool to accelerate the development and verification of hypotheses.
 
 ## Tools Used
 
@@ -150,8 +147,6 @@ Business Owners
 - Power Query
 - DAX
 - Data modeling (Star Schema)
-
----
 
 ## Demonstrated Skills
 
@@ -161,13 +156,9 @@ Business Analytics
 Dashboard Development  
 Data Preparation  
 
----
-
 ## Dashboard Preview
 
 (Screenshots are available in the /screenshots folder)
-
----
 
 ## File
 
