@@ -130,14 +130,14 @@ Business Owners
 During the work on the project, AI tools were used to accelerate development and improve the effectiveness of analytics.:
 
 ChatGPT was used for:
-1) generation of drafts of DAX measures for calculating LTV, average receipt and customer segmentation (Light/Medium/Hard)
-2) prototyping the logic of calculating the age at the time of the transaction and the calendar table
-3) search for ideas for visualizing revenue distribution across cities and restaurants
+1) Generation of drafts of DAX measures for calculating LTV, average receipt and customer segmentation (Light/Medium/Hard)
+2) Prototyping the logic of calculating the age at the time of the transaction and the calendar table
+3) Search for ideas for visualizing revenue distribution across cities and restaurants
 
 DeepSeek was used for:
-1) improvements and optimizations of DAX expressions (checking the filtering context, eliminating errors in iterators)
-2) checking the logic of customer segmentation and calculating LTV based on time slices
-3) preparing descriptions of key insights for dashboard documentation
+1) Improvements and optimizations of DAX expressions (checking the filtering context, eliminating errors in iterators)
+2) Checking the logic of customer segmentation and calculating LTV based on time slices
+3) Preparing descriptions of key insights for dashboard documentation
 
 All the key steps - designing the star model, setting up connections, visualizing and interpreting the results - were performed independently. AI was used as a tool to accelerate the development and verification of hypotheses.
 
